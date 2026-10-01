@@ -108,7 +108,6 @@ public struct SettingsRow: View {
           horizontal: false, vertical: true)
       }
       Spacer(minLength: 8)
-      Image(systemName: "chevron.forward").font(.caption).accessibilityHidden(true)
     }.padding(.vertical, 8).frame(minHeight: 44).accessibilityElement(children: .combine)
   }
 }
